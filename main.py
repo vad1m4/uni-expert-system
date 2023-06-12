@@ -66,7 +66,7 @@ def ask_followup_questions(purpose):
                     return "Compact SUV"
                 else:
                     return "Compact SUV with extra storage space on the roof or Minivan"
-            elif family_response == 2:
+            elif family_response == "2":
                 luxury_question = "Do you want your vehicle to feel luxurious?\nEnter '1' for yes or '2' for no: "
                 luxury_response = input(luxury_question)
                 if luxury_response == "1":
